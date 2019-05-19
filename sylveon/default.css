@@ -1,0 +1,55 @@
+/* Desktop rules, see "Mobile rules" for those */
+body {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background: #eee;
+    color: #444;
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-items: center center;
+}
+
+header {
+    margin-top: -52px;
+}
+
+img.icon-r {
+    margin-bottom: -16px;
+    margin-left: -80px;
+    padding-right: 16px;
+}
+
+img.icon-l {
+    margin-bottom: -16px;
+    margin-right: -80px;
+    padding-right: 16px;
+    transform: scaleX(-1);
+}
+
+
+/* Mobile rules */
+@media (orientation: portrait) {
+    body {
+        display: grid;
+        height: 100vh;
+        margin: 0;
+        place-items: center center;
+    }
+
+    header h1 {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    img.icon-r {
+        display: block;
+        margin: auto;
+        padding: 16px;
+    }
+
+    img.icon-l {
+        display: none;
+    }
+
+}
