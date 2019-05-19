@@ -1,5 +1,6 @@
 # Servers I host
-This is a catalog of my servers and what's running on them.
+This is a catalog of my servers and what's running on them, so I don't
+forget.
 
 ## Eevee - Raspberry Pi 2B
 The "router" pi, mostly just running caddy.
@@ -7,7 +8,7 @@ The "router" pi, mostly just running caddy.
 ### Services
 - caddy (proxying, serving the following from git)
   - archive.neon.moe (big files from sylveon)
-  - eevee,sylveon,leafeon.neon.moe
+  - eevee,sylveon,leafeon.neon.moe (proxy for sylveon & leafeon)
   - showoffhour.fyi
   - kalmotaiteelle.fi
   - neon.moe
@@ -17,8 +18,8 @@ The "router" pi, mostly just running caddy.
 The "storage" pi, mostly just serving big files with caddy.
 
 ### Services
-- caddy (serving big files)
-- netdata (monitor.sylveon.neon.moe, for monitoring)
+- caddy (serving big files and the status page, sylveon.neon.moe)
+- netdata (for monitoring, monitor.sylveon.neon.moe)
 
 ## Leafeon - Raspberry Pi 3B+
 The "jack of all trades" pi, running all kinds of light loads.
@@ -36,3 +37,4 @@ The "jack of all trades" pi, running all kinds of light loads.
 - spamassassin (for email)
 <!-- /Email -->
 - netdata (monitor.leafeon.neon.moe)
+- caddy (status page, leafeon.neon.moe)
