@@ -37,11 +37,12 @@ The "jack of all trades" pi, running all kinds of light loads.
 - opendkim (for email)
 - spamassassin (for email)
 <!-- /Email -->
-- netdata (monitor.leafeon.neon.moe)
 - caddy (status page, leafeon.neon.moe)
+- netdata (monitor.leafeon.neon.moe)
 
 ## Flareon - Raspberry Pi 3B+
 The currently unused pi.
 
 ### Services
 - caddy (flareon.neon.moe)
+- netdata (monitor.flareon.neon.moe)
