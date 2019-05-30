@@ -18,6 +18,7 @@ The "router" pi, mostly just running caddy.
 The "storage" pi, mostly just serving big files with caddy.
 
 ### Services
+- funkwhale (funk.neon.moe)
 - caddy (serving big files and the status page, sylveon.neon.moe)
 - netdata (for monitoring, monitor.sylveon.neon.moe)
 
@@ -38,3 +39,9 @@ The "jack of all trades" pi, running all kinds of light loads.
 <!-- /Email -->
 - netdata (monitor.leafeon.neon.moe)
 - caddy (status page, leafeon.neon.moe)
+
+## Flareon - Raspberry Pi 3B+
+The currently unused pi.
+
+### Services
+- caddy (flareon.neon.moe)

@@ -15,12 +15,16 @@ header {
 }
 
 img.icon-r {
+    width: 64px;
+    height: 64px;
     margin-bottom: -16px;
     margin-left: -80px;
     padding-right: 16px;
 }
 
 img.icon-l {
+    width: 64px;
+    height: 64px;
     margin-bottom: -16px;
     margin-right: -80px;
     padding-right: 16px;
