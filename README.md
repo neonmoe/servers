@@ -9,28 +9,28 @@ relatively important to keep hosting it (to return 410 instead of not
 responding).
 
 ### Services
-- caddy (proxying, serving the following from git)
-  - archive.neon.moe (big files from sylveon)
-  - eevee,sylveon,leafeon.neon.moe (proxy for sylveon & leafeon)
-  - showoffhour.fyi
-  - kalmotaiteelle.fi
+- caddy (proxy for every other pi + serving the following from git)
+  - all the status pages in this doc
   - neon.moe
   - moe.neon.moe
-- netdata (monitor.eevee.neon.moe, for monitoring)
+  - blog.neon.moe
+  - cv.pitkanen.dev
+- netdata (monitor.eevee.neon.moe)
 
 ## Sylveon - Raspberry Pi 3B+
 The "storage" pi, mostly just serving big files with caddy.
+Has an external hard drive, keeps local backups. 
 
 ### Services
-- mpd (personal music server)
 - caddy (serving big files and the status page, sylveon.neon.moe)
-- netdata (for monitoring, monitor.sylveon.neon.moe)
+- netdata (monitor.sylveon.neon.moe)
+- backups for:
+  - backup system creation in progress
 
 ## Leafeon - Raspberry Pi 3B+
 The "jack of all trades" pi, running all kinds of light loads.
 
 ### Services
-- metadata-manager (metadata.functional.technology)
 - miniflux2 (miniflux.functional.technology)
 - gitea (git.neon.moe)
 - roguesque (for roguesque leaderboards)
@@ -49,5 +49,5 @@ The "social media" pi.
 
 ### Services
 - pleroma (fedi.neon.moe)
-- caddy (flareon.neon.moe)
+- caddy (status page, flareon.neon.moe)
 - netdata (monitor.flareon.neon.moe)
